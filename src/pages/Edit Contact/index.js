@@ -1,7 +1,11 @@
+import { ContactForm } from '../../components/ContactForm';
+import { PageHeader } from '../../components/PageHeader';
+
 export function EditContact() {
     return (
-      <div>
-        <h1>Edit Contact</h1>
-      </div>
+      <>
+        <PageHeader title="Editar Albert Conceição" />
+        <ContactForm buttonLabel="Salvar alterações" />
+      </>
     );
 }
